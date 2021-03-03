@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zabbix_export>
+    <version>5.0</version>
+    <date>2021-03-03T17:07:14Z</date>
+    <groups>
+        <group>
+            <name>PRD_GB_QLIKVIEW</name>
+        </group>
+    </groups>
+    <templates>
+        <template>
+            <template>QLIKVIEW_PERFMON</template>
+            <name>QLIKVIEW_PERFMON</name>
+            <description>Template para monitorar metricas do QlikView</description>
+            <groups>
+                <group>
+                    <name>PRD_GB_QLIKVIEW</name>
+                </group>
+            </groups>
+            <applications>
+                <application>
+                    <name>QLIKVIEW</name>
+                </application>
+            </applications>
+            <items>
+                <item>
+                    <name>\.NET CLR Memory(QVDistributionService)\# of Pinned Objects</name>
+                    <key>perf_counter[\.NET CLR Memory(QVDistributionService)\# of Pinned Objects]</key>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <applications>
+                        <application>
+                            <name>QLIKVIEW</name>
+                        </application>
+                    </applications>
+                </item>
+                <item>
+                    <name>\LogicalDisk(D:)\% Free Space</name>
+                    <key>perf_counter[\LogicalDisk(D:)\% Free Space]</key>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <applications>
+                        <application>
+                            <name>QLIKVIEW</name>
+                        </application>
+                    </applications>
+                </item>
+                <item>
+                    <name>\LogicalDisk(D:)\Avg. Disk Bytes/Transfer</name>
+                    <key>perf_counter[\LogicalDisk(D:)\Avg. Disk Bytes/Transfer]</key>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <applications>
+                        <application>
+                            <name>QLIKVIEW</name>
+                        </application>
+                    </applications>
+                </item>
+                <item>
+                    <name>\LogicalDisk(D:)\Avg. Disk sec/Read</name>
+                    <key>perf_counter[\LogicalDisk(D:)\Avg. Disk sec/Read]</key>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <applications>
+                        <application>
+                            <name>QLIKVIEW</name>
+                        </application>
+                    </applications>
+                </item>
+                <item>
+                    <name>\LogicalDisk(D:)\Free Megabytes</name>
+                    <key>perf_counter[\LogicalDisk(D:)\Free Megabytes]</key>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <applications>
+                        <application>
+                            <name>QLIKVIEW</name>
+                        </application>
+                    </applications>
+                </item>
+                <item>
+                    <name>\Memory\% Committed Bytes In Use</name>
+                    <key>perf_counter[\Memory\% Committed Bytes In Use]</key>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <applications>
+                        <application>
+                            <name>QLIKVIEW</name>
+                        </application>
+                    </applications>
+                </item>
+                <item>
+                    <name>\Memory\Available MBytes</name>
+                    <key>perf_counter[\Memory\Available MBytes]</key>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <applications>
+                        <application>
+                            <name>QLIKVIEW</name>
+                        </application>
+                    </applications>
+                </item>
+                <item>
+                    <name>\Memory\Available MBytes</name>
+                    <key>perf_counter[\Memory\Page Faults/sec]</key>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <applications>
+                        <application>
+                            <name>QLIKVIEW</name>
+                        </application>
+                    </applications>
+                </item>
+                <item>
+                    <name>\Memory\Page Reads/sec</name>
+                    <key>perf_counter[\Memory\Page Reads/sec]</key>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <applications>
+                        <application>
+                            <name>QLIKVIEW</name>
+                        </application>
+                    </applications>
+                </item>
+                <item>
+                    <name>\Memory\Page Reads/sec</name>
+                    <key>perf_counter[\Memory\Pages/sec]</key>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <applications>
+                        <application>
+                            <name>QLIKVIEW</name>
+                        </application>
+                    </applications>
+                </item>
+                <item>
+                    <name>\Memory\Pool Nonpaged Bytes</name>
+                    <key>perf_counter[\Memory\Pool Nonpaged Bytes]</key>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <applications>
+                        <application>
+                            <name>QLIKVIEW</name>
+                        </application>
+                    </applications>
+                </item>
+                <item>
+                    <name>\Network Interface(*)\Bytes Total/sec</name>
+                    <key>perf_counter[\Network Interface(*)\Bytes Total/sec]</key>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <applications>
+                        <application>
+                            <name>QLIKVIEW</name>
+                        </application>
+                    </applications>
+                </item>
+                <item>
+                    <name>\Network Interface(*)\Current Bandwidth</name>
+                    <key>perf_counter[\Network Interface(*)\Current Bandwidth]</key>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <applications>
+                        <application>
+                            <name>QLIKVIEW</name>
+                        </application>
+                    </applications>
+                </item>
+                <item>
+                    <name>\Paging File(_Total)\% Usage</name>
+                    <key>perf_counter[\Paging File(_Total)\% Usage]</key>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <applications>
+                        <application>
+                            <name>QLIKVIEW</name>
+                        </application>
+                    </applications>
+                </item>
+                <item>
+                    <name>\PhysicalDisk(_Total)\% Disk Time</name>
+                    <key>perf_counter[\PhysicalDisk(_Total)\% Disk Time]</key>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <applications>
+                        <application>
+                            <name>QLIKVIEW</name>
+                        </application>
+                    </applications>
+                </item>
+                <item>
+                    <name>\PhysicalDisk(_Total)\Avg. Disk Bytes/Transfer</name>
+                    <key>perf_counter[\PhysicalDisk(_Total)\Avg. Disk Bytes/Transfer]</key>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <applications>
+                        <application>
+                            <name>QLIKVIEW</name>
+                        </application>
+                    </applications>
+                </item>
+                <item>
+                    <name>\PhysicalDisk(_Total)\Avg. Disk Queue Length</name>
+                    <key>perf_counter[\PhysicalDisk(_Total)\Avg. Disk Queue Length]</key>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <applications>
+                        <application>
+                            <name>QLIKVIEW</name>
+                        </application>
+                    </applications>
+                </item>
+                <item>
+                    <name>\Process(qvb)\% Processor Time</name>
+                    <key>perf_counter[\Process(qvb)\% Processor Time]</key>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <applications>
+                        <application>
+                            <name>QLIKVIEW</name>
+                        </application>
+                    </applications>
+                </item>
+                <item>
+                    <name>\Process(qvb)\Private Bytes</name>
+                    <key>perf_counter[\Process(qvb)\Private Bytes]</key>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <applications>
+                        <application>
+                            <name>QLIKVIEW</name>
+                        </application>
+                    </applications>
+                </item>
+                <item>
+                    <name>\Process(qvb)\Thread Count</name>
+                    <key>perf_counter[\Process(qvb)\Thread Count]</key>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <applications>
+                        <application>
+                            <name>QLIKVIEW</name>
+                        </application>
+                    </applications>
+                </item>
+                <item>
+                    <name>\Process(qvb)\Virtual Bytes</name>
+                    <key>perf_counter[\Process(qvb)\Virtual Bytes]</key>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <applications>
+                        <application>
+                            <name>QLIKVIEW</name>
+                        </application>
+                    </applications>
+                </item>
+                <item>
+                    <name>\Process(qvb)\Working Set</name>
+                    <key>perf_counter[\Process(qvb)\Working Set]</key>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <applications>
+                        <application>
+                            <name>QLIKVIEW</name>
+                        </application>
+                    </applications>
+                </item>
+                <item>
+                    <name>\Process(QVDirectoryServiceConnector)\% Processor Time</name>
+                    <key>perf_counter[\Process(QVDirectoryServiceConnector)\% Processor Time]</key>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <applications>
+                        <application>
+                            <name>QLIKVIEW</name>
+                        </application>
+                    </applications>
+                </item>
+                <item>
+                    <name>\Process(QVDirectoryServiceConnector)\Private Bytes</name>
+                    <key>perf_counter[\Process(QVDirectoryServiceConnector)\Private Bytes]</key>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <applications>
+                        <application>
+                            <name>QLIKVIEW</name>
+                        </application>
+                    </applications>
+                </item>
+                <item>
+                    <name>\Process(QVDirectoryServiceConnector)\Thread Count</name>
+                    <key>perf_counter[\Process(QVDirectoryServiceConnector)\Thread Count]</key>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <applications>
+                        <application>
+                            <name>QLIKVIEW</name>
+                        </application>
+                    </applications>
+                </item>
+                <item>
+                    <name>\Process(QVDirectoryServiceConnector)\Virtual Bytes</name>
+                    <key>perf_counter[\Process(QVDirectoryServiceConnector)\Virtual Bytes]</key>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <applications>
+                        <application>
+                            <name>QLIKVIEW</name>
+                        </application>
+                    </applications>
+                </item>
+                <item>
+                    <name>\Process(QVDirectoryServiceConnector)\Working Set</name>
+                    <key>perf_counter[\Process(QVDirectoryServiceConnector)\Working Set]</key>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <applications>
+                        <application>
+                            <name>QLIKVIEW</name>
+                        </application>
+                    </applications>
+                </item>
+                <item>
+                    <name>\Process(QVDistributionService)\% Processor Time</name>
+                    <key>perf_counter[\Process(QVDistributionService)\% Processor Time]</key>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <applications>
+                        <application>
+                            <name>QLIKVIEW</name>
+                        </application>
+                    </applications>
+                </item>
+                <item>
+                    <name>\Process(QVDistributionService)\Private Bytes</name>
+                    <key>perf_counter[\Process(QVDistributionService)\Private Bytes]</key>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <applications>
+                        <application>
+                            <name>QLIKVIEW</name>
+                        </application>
+                    </applications>
+                </item>
+                <item>
+                    <name>\Process(QVDistributionService)\Virtual Bytes</name>
+                    <key>perf_counter[\Process(QVDistributionService)\Virtual Bytes]</key>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <applications>
+                        <application>
+                            <name>QLIKVIEW</name>
+                        </application>
+                    </applications>
+                </item>
+                <item>
+                    <name>\Process(QVDistributionService)\Working Set</name>
+                    <key>perf_counter[\Process(QVDistributionService)\Working Set]</key>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <applications>
+                        <application>
+                            <name>QLIKVIEW</name>
+                        </application>
+                    </applications>
+                </item>
+                <item>
+                    <name>\Process(QVManagementService)\Private Bytes</name>
+                    <key>perf_counter[\Process(QVManagementService)\Private Bytes]</key>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <applications>
+                        <application>
+                            <name>QLIKVIEW</name>
+                        </application>
+                    </applications>
+                </item>
+                <item>
+                    <name>\Process(QVManagementService)\Thread Count</name>
+                    <key>perf_counter[\Process(QVManagementService)\Thread Count]</key>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <applications>
+                        <application>
+                            <name>QLIKVIEW</name>
+                        </application>
+                    </applications>
+                </item>
+                <item>
+                    <name>\Process(QVManagementService)\Virtual Bytes</name>
+                    <key>perf_counter[\Process(QVManagementService)\Virtual Bytes]</key>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <applications>
+                        <application>
+                            <name>QLIKVIEW</name>
+                        </application>
+                    </applications>
+                </item>
+                <item>
+                    <name>\Process(qvs)\% Processor Time</name>
+                    <key>perf_counter[\Process(qvs)\% Processor Time]</key>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <applications>
+                        <application>
+                            <name>QLIKVIEW</name>
+                        </application>
+                    </applications>
+                </item>
+                <item>
+                    <name>\Process(qvs)\Private Bytes</name>
+                    <key>perf_counter[\Process(qvs)\Private Bytes]</key>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <applications>
+                        <application>
+                            <name>QLIKVIEW</name>
+                        </application>
+                    </applications>
+                </item>
+                <item>
+                    <name>\Process(qvs)\Thread Count</name>
+                    <key>perf_counter[\Process(qvs)\Thread Count]</key>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <applications>
+                        <application>
+                            <name>QLIKVIEW</name>
+                        </application>
+                    </applications>
+                </item>
+                <item>
+                    <name>\Process(qvs)\Virtual Bytes</name>
+                    <key>perf_counter[\Process(qvs)\Virtual Bytes]</key>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <applications>
+                        <application>
+                            <name>QLIKVIEW</name>
+                        </application>
+                    </applications>
+                </item>
+                <item>
+                    <name>\Process(qvs)\Working Set</name>
+                    <key>perf_counter[\Process(qvs)\Working Set]</key>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <applications>
+                        <application>
+                            <name>QLIKVIEW</name>
+                        </application>
+                    </applications>
+                </item>
+                <item>
+                    <name>\Process(w3wp)\% Processor Time</name>
+                    <key>perf_counter[\Process(w3wp)\% Processor Time]</key>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <applications>
+                        <application>
+                            <name>QLIKVIEW</name>
+                        </application>
+                    </applications>
+                </item>
+                <item>
+                    <name>\Process(w3wp)\Private Bytes</name>
+                    <key>perf_counter[\Process(w3wp)\Private Bytes]</key>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <applications>
+                        <application>
+                            <name>QLIKVIEW</name>
+                        </application>
+                    </applications>
+                </item>
+                <item>
+                    <name>\Process(w3wp)\Thread Count</name>
+                    <key>perf_counter[\Process(w3wp)\Thread Count]</key>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <applications>
+                        <application>
+                            <name>QLIKVIEW</name>
+                        </application>
+                    </applications>
+                </item>
+                <item>
+                    <name>\Process(w3wp)\Virtual Bytes</name>
+                    <key>perf_counter[\Process(w3wp)\Virtual Bytes]</key>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <applications>
+                        <application>
+                            <name>QLIKVIEW</name>
+                        </application>
+                    </applications>
+                </item>
+                <item>
+                    <name>\Process(w3wp)\Working Set</name>
+                    <key>perf_counter[\Process(w3wp)\Working Set]</key>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <applications>
+                        <application>
+                            <name>QLIKVIEW</name>
+                        </application>
+                    </applications>
+                </item>
+                <item>
+                    <name>\Process(QVManagementService)\% Processor Time</name>
+                    <key>perf_counter[\Process(\Process(QVManagementService)\% Processor Time]</key>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <applications>
+                        <application>
+                            <name>QLIKVIEW</name>
+                        </application>
+                    </applications>
+                </item>
+                <item>
+                    <name>\Processor(_Total)\% Processor Time</name>
+                    <key>perf_counter[\Processor(_Total)\% Processor Time]</key>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <applications>
+                        <application>
+                            <name>QLIKVIEW</name>
+                        </application>
+                    </applications>
+                </item>
+                <item>
+                    <name>\Processor(_Total)\Interrupts/sec</name>
+                    <key>perf_counter[\Processor(_Total)\Interrupts/sec]</key>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <applications>
+                        <application>
+                            <name>QLIKVIEW</name>
+                        </application>
+                    </applications>
+                </item>
+                <item>
+                    <name>\QlikView Distribution Service\*</name>
+                    <key>perf_counter[\QlikView Distribution Service\*]</key>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <applications>
+                        <application>
+                            <name>QLIKVIEW</name>
+                        </application>
+                    </applications>
+                </item>
+                <item>
+                    <name>\QlikView Management Service\*</name>
+                    <key>perf_counter[\QlikView Management Service\*]</key>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <applications>
+                        <application>
+                            <name>QLIKVIEW</name>
+                        </application>
+                    </applications>
+                </item>
+                <item>
+                    <name>\System\Context Switches/sec</name>
+                    <key>perf_counter[\System\Context Switches/sec]</key>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <applications>
+                        <application>
+                            <name>QLIKVIEW</name>
+                        </application>
+                    </applications>
+                </item>
+                <item>
+                    <name>\System\Processor Queue Length</name>
+                    <key>perf_counter[\System\Processor Queue Length]</key>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <applications>
+                        <application>
+                            <name>QLIKVIEW</name>
+                        </application>
+                    </applications>
+                </item>
+                <item>
+                    <name>\Web Service(_Total)\Bytes Total/sec</name>
+                    <key>perf_counter[\Web Service(_Total)\Bytes Total/sec]</key>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <applications>
+                        <application>
+                            <name>QLIKVIEW</name>
+                        </application>
+                    </applications>
+                </item>
+                <item>
+                    <name>\Web Service(_Total)\Current Connections</name>
+                    <key>perf_counter[\Web Service(_Total)\Current Connections]</key>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <applications>
+                        <application>
+                            <name>QLIKVIEW</name>
+                        </application>
+                    </applications>
+                </item>
+                <item>
+                    <name>\Web Service(_Total)\Total Method Requests/sec</name>
+                    <key>perf_counter[\Web Service(_Total)\Total Method Requests/sec]</key>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <applications>
+                        <application>
+                            <name>QLIKVIEW</name>
+                        </application>
+                    </applications>
+                </item>
+                <item>
+                    <name>\Web Service Cache\File Cache Hits %</name>
+                    <key>perf_counter[\Web Service Cache\File Cache Hits %]</key>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <applications>
+                        <application>
+                            <name>QLIKVIEW</name>
+                        </application>
+                    </applications>
+                </item>
+                <item>
+                    <name>\Web Service Cache\Kernel: URI Cache Flushes</name>
+                    <key>perf_counter[\Web Service Cache\Kernel: URI Cache Flushes]</key>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <applications>
+                        <application>
+                            <name>QLIKVIEW</name>
+                        </application>
+                    </applications>
+                </item>
+                <item>
+                    <name>\Web Service Cache\Kernel: URI Cache Hits %</name>
+                    <key>perf_counter[\Web Service Cache\Kernel: URI Cache Hits %]</key>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <applications>
+                        <application>
+                            <name>QLIKVIEW</name>
+                        </application>
+                    </applications>
+                </item>
+                <item>
+                    <name>\Web Service Cache\Kernel: URI Cache Misses</name>
+                    <key>perf_counter[\Web Service Cache\Kernel: URI Cache Misses]</key>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <applications>
+                        <application>
+                            <name>QLIKVIEW</name>
+                        </application>
+                    </applications>
+                </item>
+            </items>
+        </template>
+    </templates>
+</zabbix_export>
